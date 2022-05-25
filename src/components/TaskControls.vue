@@ -5,19 +5,19 @@
         :active="controls.filterBy === 'all'"
         @click="controls.filterBy = 'all'"
       >
-        <VText small slight>All</VText>
+        <VText small>All</VText>
       </VStatusButton>
       <VStatusButton
         :active="controls.filterBy === 'active'"
         @click="controls.filterBy = 'active'"
       >
-        <VText small slight>Active</VText>
+        <VText small>Active</VText>
       </VStatusButton>
       <VStatusButton
         :active="controls.filterBy === 'done'"
         @click="controls.filterBy = 'done'"
       >
-        <VText small slight>Completed</VText>
+        <VText small>Completed</VText>
       </VStatusButton>
     </VLayout>
     <VLayout horizontal itemsCenter gapSmall>
@@ -25,13 +25,13 @@
         :active="controls.sortBy === 'priority'"
         @click="controls.sortBy = 'priority'"
       >
-        <VText small slight>Sort by priority</VText>
+        <VText small>Sort by priority</VText>
       </VStatusButton>
       <VStatusButton
         :active="controls.sortBy === 'dueDate'"
         @click="controls.sortBy = 'dueDate'"
       >
-        <VText small slight>Sort by due date</VText>
+        <VText small>Sort by due date</VText>
       </VStatusButton>
     </VLayout>
   </VLayout>
