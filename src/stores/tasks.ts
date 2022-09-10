@@ -8,14 +8,14 @@ function createTasksStore() {
       name: 'Learn Vue 3',
       priority: 'medium',
       due: new Date(2022, 5, 1),
-      done: false
+      done: true
     },
     {
       id: 2,
-      name: 'Attend Geekle',
+      name: 'Launch awesome app',
       priority: 'high',
-      due: new Date(2022, 5, 25),
-      done: true
+      due: new Date(2022, 7, 25),
+      done: false
     },
     {
       id: 3,
